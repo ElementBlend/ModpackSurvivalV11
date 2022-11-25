@@ -1,0 +1,14 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[player]
+power: 1
+default_player_rank: true
+ftbutilities.chunkloader.max_chunks: 4
+ftbutilities.claims.max_chunks: 8
+
+[admin]
+power: 1000
+default_op_rank: true
+ftbutilities.chat.name_format: <&c{name}&r>
+ftbutilities.chunkloader.max_chunks: 30000
+ftbutilities.claims.max_chunks: 30000
