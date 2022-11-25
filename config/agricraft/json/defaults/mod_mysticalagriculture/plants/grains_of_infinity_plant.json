@@ -2,7 +2,7 @@
   "path": "mod_mysticalagriculture/plants/grains_of_infinity_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:grains_of_infinity_plant",
-  "plant_name": "Grains of Infinity",
+  "plant_name": "Grains of Infinity Crop",
   "seed_name": "Grains of Infinity Seeds",
   "seed_items": [
     {

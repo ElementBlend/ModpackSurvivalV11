@@ -15,6 +15,7 @@ print("STARTING LightningCraft.zs");
 # Copper Rod
 recipes.remove(<lightningcraft:rod:6>);
 recipes.addShaped(<lightningcraft:rod:6>, [[<ore:ingotCopper>],[<ore:ingotCopper>]]);
+mods.immersiveengineering.MetalPress.removeRecipe(<lightningcraft:rod:6>);
 mods.immersiveengineering.MetalPress.addRecipe(<lightningcraft:rod:6>, <ore:ingotCopper>, <immersiveengineering:mold:2>, 2400);
 
 # Gold Rod
@@ -303,7 +304,7 @@ recipes.addShaped(<lightningcraft:lightning_breaker>, [[<minecraft:iron_block>,<
 
 # Lightning Miner
 recipes.remove(<lightningcraft:lightning_miner>);
-recipes.addShaped(<lightningcraft:lightning_miner>, [[<minecraft:gold_block>,<thaumcraft:turret:2>,<minecraft:gold_block>],[<lightningcraft:lightning_breaker>,<extendedcrafting:frame>,<lightningcraft:lightning_breaker>],[<minecraft:gold_block>,<lightningcraft:elec_pick>,<minecraft:gold_block>]]);
+recipes.addShaped(<lightningcraft:lightning_miner>, [[<minecraft:gold_block>,<thaumcraft:turret:2>,<minecraft:gold_block>],[<lightningcraft:lightning_breaker>,<extendedcrafting:frame>,<lightningcraft:lightning_breaker>],[<minecraft:gold_block>,<lightningcraft:item_magnet:2>,<minecraft:gold_block>]]);
 
 # Ensorcelled Core
 LightningInfusion.remove(<lightningcraft:material:9>);
