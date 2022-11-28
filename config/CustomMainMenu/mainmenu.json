@@ -162,7 +162,7 @@
             "alignment" : "bottom_right"
         },
         "privateversion": {
-            "text": "MMS V11.1",
+            "text": "MMS V11.2",
             "posX": -32,
             "posY": -12,
             "fontSize" : 0.6,
@@ -189,7 +189,7 @@
             "alignment" : "bottom_left"
         },
         "modpack":{
-            "text" : "Divine Journey 2.17.1",
+            "text" : "Divine Journey 2.17.1.1",
             "posX" : 3,
             "posY" : -24,
             "fontSize" : 0.6,
