@@ -4,6 +4,11 @@ import crafttweaker.item.IItemStack;
 
 print("STARTING OpenBlocks.zs");
 
+# Tank
+recipes.remove(<openblocks:tank>);
+recipes.addShaped(<openblocks:tank>, [[<minecraft:obsidian>,<ore:paneGlass>,<minecraft:obsidian>], [<ore:paneGlass>,<ore:paneGlass>,<ore:paneGlass>], [<minecraft:obsidian>,<ore:paneGlass>,<minecraft:obsidian>]]);
+<openblocks:tank>.maxStackSize = 1;
+
 # Glider Wings
 recipes.remove(<openblocks:generic>);
 recipes.addShapedMirrored(<openblocks:generic>, [[null,<immersiveengineering:material>,<contenttweaker:industrial_leather>],[<immersiveengineering:material>,<contenttweaker:industrial_leather>,<contenttweaker:industrial_leather>],[<contenttweaker:industrial_leather>,<contenttweaker:industrial_leather>,<contenttweaker:industrial_leather>]]);
